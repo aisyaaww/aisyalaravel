@@ -1,95 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aura Intan S- Personal Branding</title>
-    <link rel="stylesheet" href="asset/css/footer.css">
-    <link rel="stylesheet" href="asset/css/Fav Food.css">
-    <link rel="stylesheet" href="asset/css/Things I Like.css">
-    <link rel="stylesheet" href="asset/css/Contact.css">
-    <link rel="stylesheet" href="asset/css/header.css">
-    <link rel="stylesheet" href="asset/css/style.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura Intan Syaviera</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <h1>Aura Intan Syaviera</h1>
-            <p>XI PPLG 2</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#fav-food">Fav Food</a></li>
-                    <li><a href="#things-i-like">Things I Like</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+  <div class="bg-gradient-to-r from-blue-500 to-blue-300 text-white">
+    <header class="py-6 px-4 sm:px-8 md:px-12 lg:px-16">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Aura Intan Syaviera</h1>
+        <nav class="space-x-4">
+          <a href="#" class="hover:underline">About</a>
+          <a href="#" class="hover:underline">Fav Food</a>
+          <a href="#" class="hover:underline">Things I Like</a>
+          <a href="#" class="hover:underline">Contact</a>
+        </nav>
+      </div>
     </header>
-
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Aku lahir di Purbalingga umurku 16 tahun dan sekarang aku bersekolah di SMK Telkom Purwokerto.</p>
-        </div>
-    </section>
-
-    <section id="fav-food" class="section bg-light">
-        <div class="container">
-            <h2>Fav Food</h2>
-            <ul class="fav-food-list">
-                <li>Nasi Goreng</li>
-                <li>Soto</li>
-                <li>Seafood</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="things-i-like" class="section">
-        <div class="container">
-            <h2>Things I Like</h2>
-            <div class="projects-grid">
-                <div class="project-item">
-                    <h3>Kucing</h3>
-                    <p>Aura sangat suka kucing dari kecil karena ayah dan neneknya juga sangat menyukai kucing. Selain itu, kucing adalah hewan yang sangat menggemaskan.</p>
-                </div>
-                <div class="project-item">
-                    <h3>Sunset</h3>
-                    <p>Aura suka sunset karena itu merupakan keindahan alam yang alami tanpa campur tangan manusia. Sunset juga sangat indah dan dapat memanjakan mata kita.</p>
-                </div>
-                <div class="project-item">
-                    <h3>Manusia yang Tidak Mencampuri Urusan Hidup Orang Lain</h3>
-                    <p>Banyak orang suka berkomentar tentang hidup orang lain, padahal itu tidak merugikan mereka. Untuk apa repot mengomentari hidup mereka?</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="section bg-light">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form>
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <!-- Footer Section -->
-<footer>
-        <div class="container">
-            <p>&copy; 2024 Aura Intan Syaviera - XI PPLG 2</p>
-        </div>
-    </footer>
+    
+    <main class="py-12 px-4 sm:px-8 md:px-12 lg:px-16">
+      <div class="max-w-7xl mx-auto">
+        <section class="space-y-6">
+          <h2 class="text-3xl font-bold">About Me</h2>
+          <p>Aku lahir di Purbalingga umurku 16 tahun dan sekarang aku bersekolah di SMK Telkom Purwokerto.</p>
+        </section>
+        
+        <section class="mt-12 space-y-6">
+          <h2 class="text-3xl font-bold">Fav Food</h2>
+          <div class="grid grid-cols-3 gap-4">
+            <div class="bg-white text-blue-500 rounded-lg shadow p-4">Nasi Goreng</div>
+            <div class="bg-white text-blue-500 rounded-lg shadow p-4">Solo</div>
+            <div class="bg-white text-blue-500 rounded-lg shadow p-4">Seafood</div>
+          </div>
+        </section>
+        
+        <section class="mt-12 space-y-6">
+          <h2 class="text-3xl font-bold">Things I Like</h2>
+          <p>LIKE SUNSET AND CAT </p>
+        </section>
+      </div>
+    </main>
+  </div>
 </body>
 </html>
