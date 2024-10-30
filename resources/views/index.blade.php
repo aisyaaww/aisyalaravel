@@ -16,6 +16,8 @@
           <a href="#" class="hover:underline">Fav Food</a>
           <a href="#" class="hover:underline">Things I Like</a>
           <a href="#" class="hover:underline">Contact</a>
+          <a href="{{ route('about') }}" class="text-1xl font-bold mb-4">About</a>
+          <a href="{{ route('login') }}" class="text-1xl font-bold mb-4">Login</a>
         </nav>
       </div>
     </header>

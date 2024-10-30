@@ -19,7 +19,10 @@
         <input type="password" id="password" class="border border-blue-300 rounded-md py-2 px-3 w-full focus:outline-none focus:ring focus:border-blue-500" placeholder="Enter your password" />
       </div>
       <button type="submit" class="bg-blue-500 text-white rounded-md py-2 px-4 w-full hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-500">Login</button>
+      <a href="{{ route('about') }}" class="text-1xl font-bold mb-4">About</a>
+      <a href="{{ route('home') }}" class="text-1xl font-bold mb-4">Home</a>
     </form>
   </div>
+
 </body>
 </html>
